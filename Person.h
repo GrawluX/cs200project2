@@ -9,9 +9,12 @@ class Person {
 	
 		string getName();
 		void setName(string f, string l);
+		string getID();
+		void setID(string f);
 	private:
 		string first;
 		string last;
+		string id;
 };
 
 #endif
