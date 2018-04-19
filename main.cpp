@@ -1,3 +1,4 @@
+#include<cstdlib>
 #include<iostream>
 #include<"Person.h">
 #include<"Faculty.h">
@@ -8,5 +9,5 @@ void main()
 {
 	
 	system("PAUSE");
-	return 0;
+	return EXIT_SUCCESS;
 }
